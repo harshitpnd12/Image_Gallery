@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="lightbox">
+        <div class="wrapper">
+            <header>
+                <div class="photograph">
+                    <i class="ri-camera-line"></i>
+                    <span></span>
+                </div>
+                <div class="buttons">
+                    <i class="ri-download-2-line download-btn"></i>
+                    <i class="ri-close-line close-btn"></i>
+                </div>
+            </header>
+            <div class="preview-img">
+                <div class="img">
+                    <img src="" alt="preview-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="search">
+        <img src="https://cdn.pixabay.com/photo/2018/10/30/16/06/water-lily-3784022_1280.jpg" alt="search-img" />
+        <div class="content">
+            <h1>Image Gallery with JavaScript</h1>
+            <p>Search and download any image in a Second.</p>
+            <div class="search-box">
+                <i class="ri-search-line"></i>
+                <input type="text" placeholder="Search images" />
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <ul class="images"></ul>
+        <button class="load-more">Load More</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
